@@ -1,1 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap');
 
+header {
+  text-align: center;
+  background: url('https://i.imgur.com/dMIWrR3.jpg');
+  background-size: cover;
+  background-position: right center;
+  color: white;
+}
+body {
+  font-family: 'Gothic A1', sans-serif;
+  padding: 0 0 20px 0;
+}
+h1 {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 8px;
+  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58));
+}
+h2 {
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,1);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.top {
+  height: 175px;
+  margin: 40px 0px 0px 0px;
+  border: 7px solid rgba(255,255,255,1);
+  border-radius: 100px;
+  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58));
+}
+.art{
+  max-width: 100%;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}

@@ -61,13 +61,6 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
-article {
-  max-width: 500px;
-  padding: 20px 20px 0 20px;
-  margin: 0 auto;
-  text-align: justify;
-}
-
 .top {
   height: 175px;
   margin: 40px 0px 0px 0px;
@@ -91,17 +84,6 @@ div {
 .col {
   text-align: center;
   align-items: center;
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 36px;
-    /* padding: 20px; */
-  }
-  li {
-    padding: 5px;
-    display: block;
-  }
 }
 
 h1 {
@@ -132,5 +114,45 @@ header a {
 }
 
 .bio {
-  padding: 0 300px;
+  padding: 0 15vw;
+}
+
+section .row {
+  display: flex;
+  text-align: justify;
+  align-content: center;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 500px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+  text-align: justify !important;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 36px;
+    /* padding: 20px; */
+  }
+  .skills {
+    font-size: 20px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  .bio {
+    padding: 0;
+  }
+}
+
+* {
+  text-align: center;
+  align-content: center;
+}
+
+.foot {
+  margin-top: 55px;
 }

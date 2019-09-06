@@ -3,7 +3,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 header {
-  background: url('https://i.imgur.com/JiL0iGt.jpg');
+  background: url('../../public/images/cover.jpg');
   background-size: cover;
   background-position: right center;
   color: white;
@@ -106,5 +106,31 @@ div {
 
 h1 {
 	margin: 0;
-  padding: 33px 0 12px 0;
+  padding: 72px 0 0 0;
+}
+
+header div {
+  color: white;
+  padding: 20px 0 50px 0;
+}
+
+header p {
+  /* border: 7px solid rgba(255,255,255,0);
+  /* border-radius: 100px; */
+  /* filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58)); */
+}
+
+header a {
+  color: white;
+  /* border: 7px solid rgba(255,255,255,0); */
+  /* border-radius: 100px; */
+  /* filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58)); */
+}
+
+.skills {
+  font-size: 50px;
+}
+
+.bio {
+  padding: 0 300px;
 }

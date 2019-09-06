@@ -144,7 +144,7 @@ article {
     display: block;
   }
   .bio {
-    padding: 0;
+    padding: 5px;
   }
 }
 
@@ -156,3 +156,5 @@ article {
 .foot {
   margin-top: 55px;
 }
+
+.col-md-5 p {}

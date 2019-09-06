@@ -137,14 +137,17 @@ article {
     /* padding: 20px; */
   }
   .skills {
-    font-size: 20px;
+    font-size: 24px;
   }
   li {
     padding: 5px;
     display: block;
   }
   .bio {
-    padding: 5px;
+    padding: 15px;
+  }
+  section .row {
+    display: block;
   }
 }
 
@@ -157,4 +160,8 @@ article {
   margin-top: 55px;
 }
 
-.col-md-5 p {}
+.col-6 {
+  /* min-width: 300px; */
+  display: block;
+  padding: 20px;
+}

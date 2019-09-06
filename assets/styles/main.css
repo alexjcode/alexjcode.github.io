@@ -3,7 +3,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 header {
-  background: url('../../public/images/cover.jpg');
+  background: url('https://i.imgur.com/suJVtff.jpg');
   background-size: cover;
   background-position: right center;
   color: white;

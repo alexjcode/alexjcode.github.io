@@ -2,18 +2,25 @@
 /* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap'); */
 @import '~bootstrap/scss/bootstrap';
 
-header {
-  background: url('https://i.imgur.com/suJVtff.jpg');
-  background-size: cover;
-  background-position: right center;
-  color: white;
-}
-
 body {
+  /* background: url('https://i.imgur.com/suJVtff.jpg'); */
+  background: url('https://i.imgur.com/dMIWrR3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
   margin: 0;
   text-align: center;
   font-family: 'Gothic A1', sans-serif;
   padding: 0;
+}
+
+header {
+  background: url('https://i.imgur.com/JiL0iGt.jpg');
+  background-size: cover;
+  background-position: right center;
+  color: white;
 }
 
 h1 {
@@ -21,19 +28,35 @@ h1 {
   font-size: 40px;
   /* font-weight: 900; */
   /* letter-spacing: 8px; */
+  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.58));
+}
+
+h2 {
+  text-align: center;
   background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58));
 }
 
-h2 {
-  text-align: center;
+.skills i {
+  /* gradient goes here */
+  /* background: linear-gradient(to top, white 0%, #001745 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58)); */
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+i {
+  color: white;
 }
 
 .a-dark {
@@ -164,4 +187,12 @@ article {
   /* min-width: 300px; */
   display: block;
   padding: 20px;
+}
+header .h1, header .row {
+  background: rgba(0,0,6,.67);
+}
+
+header .h1 {
+  padding: 0;
+  margin: 0;
 }

@@ -147,6 +147,29 @@ article {
   text-align: justify !important;
 }
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 36px;
+    /* padding: 20px; */
+  }
+  .skills {
+    font-size: 24px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  .bio {
+    padding: 15px;
+  }
+  section .row {
+    display: block;
+  }
+  header .row {
+    font-size: 17px;
+  }
+}
+
 * {
   text-align: center;
   align-content: center;
@@ -173,24 +196,12 @@ header .h1 {
 }
 
 @media (max-width: 800px) {
-  h1 {
-    font-size: 36px;
-    /* padding: 20px; */
-  }
-  .skills {
-    font-size: 24px;
-  }
-  li {
-    padding: 5px;
-    display: block;
-  }
-  .bio {
-    padding: 15px;
-  }
   section .row {
     display: block;
   }
   header .row {
-    font-size: 17px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
   }
 }

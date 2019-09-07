@@ -16,6 +16,10 @@ body {
   padding: 0;
 }
 
+body i {
+  font-size: 25px;
+}
+
 header {
   background: url('https://i.imgur.com/JiL0iGt.jpg');
   background-size: cover;
@@ -125,8 +129,9 @@ header a {
   /* filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58)); */
 }
 
-.skills {
+.skills i {
   font-size: 50px;
+  padding: 7px;
 }
 
 .bio {
@@ -152,8 +157,9 @@ article {
     font-size: 36px;
     /* padding: 20px; */
   }
-  .skills {
+  .skills i {
     font-size: 24px;
+    padding: 3px;
   }
   li {
     padding: 5px;

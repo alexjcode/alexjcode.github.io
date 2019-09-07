@@ -21,25 +21,26 @@ header {
   background-size: cover;
   background-position: right center;
   color: white;
+  padding: 72px 0 0 0;
 }
 
 h1 {
   padding: 0px;
-  font-size: 40px;
+  font-size: 3.5rem;
   /* font-weight: 900; */
   /* letter-spacing: 8px; */
-  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 33%);
+  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 5px rgba(0,0,0,0.58));
+  filter: drop-shadow(0 0 0.34rem rgba(0,0,0,1));
 }
 
 h2 {
   text-align: center;
-  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
+  /* background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58));
+  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58)); */
 }
 
 .skills i {
@@ -84,14 +85,6 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
-.top {
-  height: 175px;
-  margin: 40px 0px 0px 0px;
-  border: 7px solid rgba(255,255,255,1);
-  border-radius: 100px;
-  filter: drop-shadow(0 0 0.29rem rgba(0,0,0,0.58));
-}
-
 div {
   padding: 20px;
 }
@@ -111,7 +104,7 @@ div {
 
 h1 {
 	margin: 0;
-  padding: 72px 0 0 0;
+  padding: 0;
 }
 
 header div {
@@ -154,6 +147,31 @@ article {
   text-align: justify !important;
 }
 
+* {
+  text-align: center;
+  align-content: center;
+}
+
+.foot {
+  margin-top: 55px;
+}
+
+.col-6 {
+  /* min-width: 300px; */
+  display: block;
+  padding: 20px;
+}
+header .row {
+  background: rgba(0,0,6,.67);
+  margin-top: 25px;
+  padding: 20px 80px 20px 80px;
+  font-size: 20px;
+}
+
+header .h1 {
+  margin: 0;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 36px;
@@ -172,27 +190,7 @@ article {
   section .row {
     display: block;
   }
-}
-
-* {
-  text-align: center;
-  align-content: center;
-}
-
-.foot {
-  margin-top: 55px;
-}
-
-.col-6 {
-  /* min-width: 300px; */
-  display: block;
-  padding: 20px;
-}
-header .h1, header .row {
-  background: rgba(0,0,6,.67);
-}
-
-header .h1 {
-  padding: 0;
-  margin: 0;
+  header .row {
+    font-size: 17px;
+  }
 }

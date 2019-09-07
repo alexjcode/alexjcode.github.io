@@ -202,6 +202,9 @@ header .h1 {
 }
 
 @media (max-width: 800px) {
+  .col-6 {
+    width: inherit;
+  }
   section .row {
     display: block;
   }

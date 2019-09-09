@@ -26,6 +26,10 @@ body {
   /* padding-top: 14px; */
 }
 
+.icon {
+  opacity: .67;
+}
+
 .custom-icon {
   height: 25px;
 }
@@ -159,6 +163,15 @@ section .row {
   margin: 0 auto;
 }
 
+.skills {
+  margin-top: 0;
+}
+
+.skils-head {
+  padding: 5px;
+  display: block;
+}
+
 article {
   max-width: 500px;
   padding: 20px 20px 0 20px;
@@ -213,6 +226,10 @@ header .row {
 
 header .h1 {
   margin: 0;
+}
+
+.icon:hover {
+  opacity: 1;
 }
 
 @media (max-width: 800px) {

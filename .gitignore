@@ -7,7 +7,6 @@ _SpecRunner.html
 node_modules
 *.woff2
 *.woff
-*.svg
 *.ttf
 *.eot
 assets/styles/reset.css

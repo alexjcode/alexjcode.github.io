@@ -13,6 +13,7 @@ let old = ''
 const onSkillLeave = event => {
   $('.skills-head').text('')
   $('.skills-head').hide()
+  old = ''
 }
 
 $(() => {

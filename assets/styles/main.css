@@ -281,6 +281,10 @@ h1 {
   font-weight: 500;
 }
 
+body {
+  background-color: black;
+}
+
 @media (max-width: 800px) {
   .col-6 {
     width: inherit;

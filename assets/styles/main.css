@@ -45,16 +45,7 @@ header {
   padding: 0px 0 0 0;
 }
 
-h1 {
-  padding: 0px;
-  font-size: 3.5rem;
-  /* font-weight: 900; */
-  /* letter-spacing: 8px; */
-  background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 0.34rem rgba(0, 0, 0, 1));
-}
+
 
 h2 {
   text-align: center;
@@ -212,79 +203,7 @@ article {
 
 /* /// */
 
-* {
-  text-align: center;
-  align-content: center;
-}
 
-.foot {
-  margin-top: 45px;
-}
-
-.col-6 {
-  width: 100%;
-  display: block;
-  padding: 20px;
-}
-
-header .row {
-  background: rgba(0, 0, 6, .67);
-  margin-top: 0px;
-  padding: 50px 80px 20px 80px;
-  font-size: 20px;
-}
-
-header .h1 {
-  margin: 0;
-  padding-top: 25px;
-  padding-bottom: 16px;
-  letter-spacing: 1.6px;
-  font-weight: 300;
-}
-
-.icon:hover {
-  opacity: 1;
-}
-
-.skills-head {
-  padding: 0;
-}
-
-.custom-icon {
-  align-self: center;
-  vertical-align: bottom;
-  padding: 2px;
-}
-
-.pad-sm {
-  padding-left: 2px;
-  padding-right: 2px;
-}
-
-.mongo-sm {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.description {
-  text-align: justify;
-}
-
-.fjalla {
-  font-family: 'Fjalla One', sans-serif;
-}
-
-.head-row {
-  padding-top: 0;
-}
-
-h1 {
-  font-weight: 500;
-}
-
-body {
-  background-color: black;
-}
 
 /* /// */
 

@@ -1,7 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap'); */
-@import '~bootstrap/scss/bootstrap';
-
+/* @import '~bootstrap/scss/bootstrap'; */
 body {
   /* background: url('https://i.imgur.com/suJVtff.jpg'); */
   background: url('https://i.imgur.com/dMIWrR3.jpg');
@@ -21,8 +20,8 @@ body {
   height: 50px;
   /* display: inline-flex; */
   align-self: center;
-  vertical-align: bottom;
-  padding: 7px;
+  vertical-align: middle;
+  /* padding: 7px; */
   /* padding-top: 14px; */
 }
 
@@ -54,7 +53,7 @@ h1 {
   background: linear-gradient(to top, #e6ca1e 0%, #dd690c 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 0.34rem rgba(0,0,0,1));
+  filter: drop-shadow(0 0 0.34rem rgba(0, 0, 0, 1));
 }
 
 h2 {
@@ -84,7 +83,7 @@ i {
 
 .a-dark {
   padding: 10px;
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
   color: white;
 }
 
@@ -98,7 +97,7 @@ i {
 
 ul {
   padding: 10px;
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
   color: white;
 }
 
@@ -125,7 +124,7 @@ div {
 }
 
 h1 {
-	margin: 0;
+  margin: 0;
   padding: 0;
   font-size: 70px;
 }
@@ -180,29 +179,38 @@ article {
   text-align: justify !important;
 }
 
+/* /// */
+
 @media (max-width: 800px) {
   h1 {
     font-size: 55px;
     /* padding: 20px; */
   }
+
   .skills i {
     font-size: 21px;
     padding: 1px;
   }
+
   li {
     padding: 5px;
     display: block;
   }
+
   .bio {
     padding: 15px;
   }
+
   section .row {
     display: block;
   }
+
   header .row {
     font-size: 17px;
   }
 }
+
+/* /// */
 
 * {
   text-align: center;
@@ -218,8 +226,9 @@ article {
   display: block;
   padding: 20px;
 }
+
 header .row {
-  background: rgba(0,0,6,.67);
+  background: rgba(0, 0, 6, .67);
   margin-top: 0px;
   padding: 50px 80px 20px 80px;
   font-size: 20px;
@@ -261,14 +270,6 @@ header .h1 {
   text-align: justify;
 }
 
-.center {
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-}
-
 .fjalla {
   font-family: 'Fjalla One', sans-serif;
 }
@@ -285,20 +286,47 @@ body {
   background-color: black;
 }
 
+/* /// */
+
 @media (max-width: 800px) {
   .col-6 {
     width: inherit;
   }
+
   section .row {
     display: block;
   }
+
   header .row {
     padding-left: 0;
     padding-right: 0;
     font-size: 15px;
   }
+
   .custom-skill {
     height: 21px;
-    padding: 1px;
+    padding-bottom: 1px;
   }
+}
+
+/* /// */
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.center-center {
+  margin: 0 auto !important;
+  text-align: center !important;
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
+
+.full-width {
+  width: 100%;
 }

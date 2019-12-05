@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900&display=swap'); */
+/* @import '~bootstrap/scss/bootstrap'; */
+
+/* /// PAGE STYLE /// */
+
+body {
+  /* background: url('https://i.imgur.com/suJVtff.jpg'); */
+  background: url('https://i.imgur.com/dMIWrR3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  padding: 0;
+}
+
+/* /// GENERIC TAGS /// */
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.center-center {
+  margin: 0 auto !important;
+  text-align: center !important;
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.fjalla {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* /// */
+
+.custom-skill {
+}
+
+.icon {
+}
+
+.skills-head {
+}
+
+.custom-icon {
+  height: 25px;
+}
+
+body i {
+}
+
+header {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+.skills i {
+}
+
+a {
+}
+
+i {
+}
+
+.a-dark {
+}
+
+article {
+}
+
+.a-dark a, ul a {
+}
+
+ul {
+}
+
+li {
+}
+
+div {
+}
+
+.art {
+}
+
+.proj-img {
+}
+
+.col {
+}
+
+p {
+}
+
+a {
+}
+
+.bio {
+}
+
+.row {
+}
+
+.skills {
+}
+
+.skils-head {
+}
+
+article {
+}
+
+* {
+}
+
+.foot {
+}
+
+.col-6 {
+}
+
+header .row {
+}
+
+header .h1 {
+}
+
+.icon:hover {
+}
+
+.skills-head {
+}
+
+.custom-icon {
+}
+
+.pad-sm {
+}
+
+.mongo-sm {
+}
+
+.description {
+}
+
+.head-row {
+}
+
+h1 {
+}
+
+body {
+}
+
+/* /// */
+
+/* /// */
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 55px;
+    /* padding: 20px; */
+  }
+
+  .skills i {
+    font-size: 21px;
+    padding: 1px;
+  }
+
+  li {
+    padding: 5px;
+    display: block;
+  }
+
+  .bio {
+    padding: 15px;
+  }
+
+  section .row {
+    display: block;
+  }
+
+  header .row {
+    font-size: 17px;
+  }
+}
+
+/* /// */
+
+@media (max-width: 800px) {
+  .col-6 {
+    width: inherit;
+  }
+
+  section .row {
+    display: block;
+  }
+
+  header .row {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+  }
+
+  .custom-skill {
+    height: 21px;
+    padding-bottom: 1px;
+  }
+}
